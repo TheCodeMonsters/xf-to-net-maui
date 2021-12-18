@@ -5,7 +5,23 @@
     xmlns:renderers="clr-namespace:Renderers"
     x:Class="Renderers.MainPage"
     Title="Custom Renderers">
+
+
     <StackLayout>
-        <renderers:CustomEntry />
+        <StackLayout>
+            <renderers:CustomEntry />
+        </StackLayout>
+
+
+
+        <Label HorizontalOptions="Center"
+               FontSize="25">
+            Xamarin Forms!
+        </Label>
+
     </StackLayout>
+    
+
+    
+    
 </ContentPage>

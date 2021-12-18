@@ -4,7 +4,17 @@
     x:Class="Compatibility.MainPage"
     xmlns:compatibility="clr-namespace:Compatibility"
     Title="Using Compatibility">
+    
     <StackLayout>
         <compatibility:CustomEntry />
+
+
+        <StackLayout>
+            <Label HorizontalOptions="Center"
+                   FontSize="25">
+                Dotnet MAUI
+            </Label>
+        </StackLayout>
+        
     </StackLayout>
 </ContentPage>
