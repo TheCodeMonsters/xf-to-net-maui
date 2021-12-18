@@ -11,3 +11,9 @@ This repository is a compilation with documentation, examples and tips when conv
 - Use Triggers.
 
 Besides learning about the try-convert tool and how to use it with different examples. 
+
+```
+dotnet build -t:Run -f net6.0-android
+dotnet build -t:Run -f net6.0-ios
+dotnet build -t:Run -f net6.0-maccatalyst
+```
