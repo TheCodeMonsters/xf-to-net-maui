@@ -13,10 +13,9 @@
         </StackLayout>
 
 
-
         <Label HorizontalOptions="Center"
-               FontSize="25">
-            Xamarin Forms!
+               FontSize="35">
+            Xamarin MAUI
         </Label>
 
     </StackLayout>
