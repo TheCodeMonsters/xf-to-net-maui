@@ -1,6 +1,6 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MAUIAppUI.MainPage"
+             x:Class="newmauiapp.MainPage"
              BackgroundColor="{DynamicResource SecondaryColor}">
 
     <ScrollView>
@@ -8,14 +8,22 @@
               Padding="{OnPlatform iOS='30,60,30,30', Default='30'}">
 
             <Label 
-                Text="App MAUI"
+                Text="Hello, World!"
                 Grid.Row="0"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 HorizontalOptions="Center" />
 
             <Label 
-                Text="Contador: 0"
+                Text="Welcome to .NET Multi-platform App UI"
+                Grid.Row="1"
+                SemanticProperties.HeadingLevel="Level1"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Label 
+                Text="Current count: 0"
                 Grid.Row="2"
                 FontSize="18"
                 FontAttributes="Bold"
